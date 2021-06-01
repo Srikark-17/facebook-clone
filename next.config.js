@@ -15,6 +15,7 @@ module.exports = {
       "images.wsj.net",
       "thumbor.forbes.com",
       "api.time.com",
+      "srikark-17.github.io",
     ],
   },
 };

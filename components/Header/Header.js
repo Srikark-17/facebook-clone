@@ -28,6 +28,7 @@ function Header() {
           width="40"
           height="40"
           layout="fixed"
+          className="cursor-pointer"
         />
         <div className="hidden md:inline-flex ml-2 items-center rounded-full bg-gray-100 p-2">
           <SearchIcon className="h-6 text-gray-600" />

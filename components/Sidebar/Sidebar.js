@@ -8,6 +8,7 @@ import {
   ClockIcon,
   DesktopComputerIcon,
   UsersIcon,
+  BookmarkIcon,
 } from "@heroicons/react/solid";
 import { useSession } from "next-auth/client";
 import React from "react";
@@ -19,12 +20,13 @@ function Sidebar() {
   return (
     <div className="p-2 mt-5 max-w-[600px] xl:min-w-[300px]">
       <SidebarRow src={session.user.image} title={session.user.name} />
-      <SidebarRow Icon={UsersIcon} title="Friends" />
+      <SidebarRow Icon={UsersIcon} title="Find Friends" />
       <SidebarRow Icon={UserGroupIcon} title="Groups" />
-      <SidebarRow Icon={ShoppingBagIcon} title="Marketplace" />
       <SidebarRow Icon={DesktopComputerIcon} title="Watch" />
       <SidebarRow Icon={CalendarIcon} title="Events" />
       <SidebarRow Icon={ClockIcon} title="Memories" />
+      <SidebarRow Icon={ShoppingBagIcon} title="Marketplace" />
+      <SidebarRow Icon={BookmarkIcon} title="Saved" />
       <SidebarRow Icon={ChevronDownIcon} title="See More" />
     </div>
   );
