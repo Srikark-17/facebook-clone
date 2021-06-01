@@ -14,6 +14,7 @@ module.exports = {
       "assets.bwbx.io",
       "images.wsj.net",
       "thumbor.forbes.com",
+      "api.time.com",
     ],
   },
 };
