@@ -8,7 +8,6 @@ module.exports = {
       "scontent-atl3-1.xx.fbcdn.net",
       "i.gadgets360cdn.com",
       "upload.wikimedia.org",
-      "links.papareact.com",
       "www.rollingstone.com",
       "www.biography.com",
       "assets.bwbx.io",

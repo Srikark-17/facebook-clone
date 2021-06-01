@@ -3,8 +3,8 @@ import StoryCard from "./StoryCard";
 const stories = [
   {
     name: "Srikar Kusumanchi",
-    src: "https://links.papareact.com/zof",
-    profile: "https://links.papareact.com/l4v",
+    src: "https://srikark-17.github.io/images/profilepic.png",
+    profile: "https://srikark-17.github.io/images/profilepic.jpg",
   },
   {
     name: "Elon Musk",
