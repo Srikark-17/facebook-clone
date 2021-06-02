@@ -15,11 +15,11 @@ import React from "react";
 import SidebarRow from "./SidebarRow";
 
 function Sidebar() {
-  const [session, loading] = useSession();
+  const [session] = useSession();
 
   return (
     <div className="p-2 mt-5 max-w-[600px] xl:min-w-[300px]">
-      <SidebarRow src={session.user.image} title={session.user.name} />
+      <SidebarRow src={session?.user.image} title={session?.user.name} />
       <SidebarRow Icon={UsersIcon} title="Find Friends" />
       <SidebarRow Icon={UserGroupIcon} title="Groups" />
       <SidebarRow Icon={DesktopComputerIcon} title="Watch" />

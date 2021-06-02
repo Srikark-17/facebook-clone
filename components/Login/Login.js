@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Login() {
   return (
-    <div className="grid place-items-center">
+    <div className="grid place-items-center dark:bg-gray-900">
       <Image
         src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
         height={400}
